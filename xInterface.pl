@@ -7,7 +7,7 @@ my $family,
 my $ip;
 my @parts;
 my @type;
-my $hostname="roxbury-north.bonet.cityofboston.gov.";
+my $hostname="hostname.example.com.";
 
 foreach my $logical ($xp ->find('//logical-interface[address-family/address-family-name = "inet"]') ->get_nodelist) 
 {
